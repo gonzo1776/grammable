@@ -63,4 +63,24 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
+  gem 'factory_bot_rails'
 end
+
+gem 'jquery-rails'
+
+gem 'popper_js', '~> 1.11.1'
+gem 'bootstrap', '4.0.0.alpha6'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
+
+gem 'simple_form'
+
+gem 'devise'
+
+gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
+
+gem "figaro"
+
+gem "fog-aws"
