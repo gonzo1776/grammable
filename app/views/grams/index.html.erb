@@ -20,12 +20,14 @@
         <% gram.comments.each do |comment| %>
           <div class="comment">
             <span class="comment_handle">
-              <%_ comment.user.email %>
+              <%= comment.user.email %>
             </span>
 
             <%= comment.message %>
           </div>
         <% end %>
+        <br/>
+        <br/>
 
         <h4>Add a comment</h4>
         <%= simple_form_for Comment.new, url: gram_comments_path(gram) do |f| %>
