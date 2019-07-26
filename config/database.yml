@@ -78,11 +78,11 @@ test:
 #
 # You can use this database configuration with:
 #
-production:
-  url: <%= ENV['DATABASE_URL'] %>
+#production:
+#  url: <%= ENV['DATABASE_URL'] %>
 #
 production:
   <<: *default
   database: grammable_production
-   username: grammable
-   password: <%= ENV['GRAMMABLE_DATABASE_PASSWORD'] %>
+#   username: grammable
+ #  password: <%= ENV['GRAMMABLE_DATABASE_PASSWORD'] %>
