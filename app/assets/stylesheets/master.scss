@@ -1,12 +1,12 @@
 @import "bootstrap";
 
 body {
-    background-color: #fafafa;
+    background-color: white;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .top-nav {
-    background-color: white;
+    background-color: #BCBAB4;
     border-bottom-color: #edeeee;
     border-bottom-width: 1px;
     border-bottom-style: solid;
@@ -17,7 +17,7 @@ body {
 .brand {
     color: #125688;
     font-size: 30px;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Bangers', cursive;
 }
 
 .top-nav .add a {
@@ -29,6 +29,7 @@ body {
 
 .top-nav .add {
     margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .card {
@@ -104,4 +105,8 @@ input {
     color: #125688;
     font-weight: bold;
     font-size: 18px;
+}
+
+head {
+    font-family: cursive
 }
